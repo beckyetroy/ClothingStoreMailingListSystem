@@ -1,0 +1,95 @@
+<object-stream>
+  <map>
+    <entry>
+      <string>sheilat</string>
+      <application.model.Member>
+        <email>sheila.troy@hotmail.com</email>
+        <username>sheilat</username>
+        <password>12345678</password>
+        <isAdmin>false</isAdmin>
+        <groups>
+          <string>Nike</string>
+        </groups>
+        <signUpDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2021</int>
+          <byte>1</byte>
+          <byte>8</byte>
+        </signUpDate>
+      </application.model.Member>
+    </entry>
+    <entry>
+      <string>beckyet19</string>
+      <application.model.Member>
+        <email>beckyetroy@gmail.com</email>
+        <username>beckyet19</username>
+        <password>12345678</password>
+        <isAdmin>false</isAdmin>
+        <groups>
+          <string>Nike</string>
+          <string>Hollister</string>
+          <string>Superdry</string>
+        </groups>
+        <signUpDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2021</int>
+          <byte>1</byte>
+          <byte>7</byte>
+        </signUpDate>
+      </application.model.Member>
+    </entry>
+    <entry>
+      <string>adamob</string>
+      <application.model.Member>
+        <email>aob.cobrien@gmail.com</email>
+        <username>adamob</username>
+        <password>12345678</password>
+        <isAdmin>false</isAdmin>
+        <groups>
+          <string>Nike</string>
+          <string>Adidas</string>
+        </groups>
+        <signUpDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2021</int>
+          <byte>1</byte>
+          <byte>8</byte>
+        </signUpDate>
+      </application.model.Member>
+    </entry>
+    <entry>
+      <string>admin</string>
+      <application.model.Member>
+        <email>admin@system.ie</email>
+        <username>admin</username>
+        <password>12345678</password>
+        <isAdmin>true</isAdmin>
+        <groups/>
+        <signUpDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2021</int>
+          <byte>1</byte>
+          <byte>7</byte>
+        </signUpDate>
+        <lastPostedDate>08/01/2021, 00:48</lastPostedDate>
+      </application.model.Member>
+    </entry>
+    <entry>
+      <string>admin2</string>
+      <application.model.Member>
+        <email>admin2@system.ie</email>
+        <username>admin2</username>
+        <password>12345678</password>
+        <isAdmin>true</isAdmin>
+        <groups/>
+        <signUpDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2021</int>
+          <byte>1</byte>
+          <byte>8</byte>
+        </signUpDate>
+        <lastPostedDate>08/01/2021, 00:41</lastPostedDate>
+      </application.model.Member>
+    </entry>
+  </map>
+</object-stream>

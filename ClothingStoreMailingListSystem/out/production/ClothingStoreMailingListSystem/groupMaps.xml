@@ -1,0 +1,66 @@
+<object-stream>
+  <map>
+    <entry>
+      <string>Nike</string>
+      <set>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>2</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin</username>
+          <title>January Sales</title>
+          <dateTimeSent>07/01/2021, 03:38</dateTimeSent>
+          <messageBody>Nike are offering up to 75% off.</messageBody>
+          <priority>2</priority>
+        </application.model.Email>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>1</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin</username>
+          <title>CLEARANCE ENDS SOON</title>
+          <dateTimeSent>07/01/2021, 03:53</dateTimeSent>
+          <messageBody>Nike big clearance sale ends in less than 24 hours!
+
+Use code &apos;CLEARANCE2021&apos; for up to 75% off while you still can!</messageBody>
+          <priority>1</priority>
+        </application.model.Email>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>3</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin</username>
+          <title>Nike Air Force 1s and more...</title>
+          <dateTimeSent>07/01/2021, 03:57</dateTimeSent>
+          <messageBody>Check out nike.com/ie/ to shop Nike&apos;s full range including Air Force 1s, fleeces, and more!</messageBody>
+          <priority>3</priority>
+        </application.model.Email>
+      </set>
+    </entry>
+    <entry>
+      <string>Hollister</string>
+      <null/>
+    </entry>
+  </map>
+</object-stream>

@@ -1,0 +1,183 @@
+<object-stream>
+  <map>
+    <entry>
+      <string>Nike</string>
+      <set>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>2</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin</username>
+          <title>January Sales</title>
+          <dateTimeSent>07/01/2021, 03:38</dateTimeSent>
+          <messageBody>Nike are offering up to 75% off.</messageBody>
+          <priority>2</priority>
+        </application.model.Email>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>3</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin</username>
+          <title>Nike Air Force 1s and more...</title>
+          <dateTimeSent>07/01/2021, 03:57</dateTimeSent>
+          <messageBody>Check out nike.com/ie/ to shop Nike&apos;s full range including Air Force 1s, fleeces, and more!</messageBody>
+          <priority>3</priority>
+        </application.model.Email>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>2</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin2</username>
+          <title>Clearance sale END</title>
+          <dateTimeSent>08/01/2021, 00:41</dateTimeSent>
+          <messageBody>The clearance sale for Nike.ie has ended. Stay tuned for more sales and discount codes soon!</messageBody>
+          <priority>2</priority>
+        </application.model.Email>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>1</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin</username>
+          <title>CLEARANCE ENDS SOON</title>
+          <dateTimeSent>07/01/2021, 03:53</dateTimeSent>
+          <messageBody>Nike big clearance sale ends in less than 24 hours!
+
+Use code &apos;CLEARANCE2021&apos; for up to 75% off while you still can!</messageBody>
+          <priority>1</priority>
+        </application.model.Email>
+      </set>
+    </entry>
+    <entry>
+      <string>Calvin Klein</string>
+      <set>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>2</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin2</username>
+          <title>20% off all Men&apos;s Items!</title>
+          <dateTimeSent>08/01/2021, 00:35</dateTimeSent>
+          <messageBody>Calvin Klein are offering 20% off all Men&apos;s items starting from 08/01/2021.
+
+Limited time only!
+
+Use code &apos;MENS20OFF&apos; at the checkout for discount.
+
+Go to www.calvinklein.ie now to start shopping!</messageBody>
+          <priority>2</priority>
+        </application.model.Email>
+      </set>
+    </entry>
+    <entry>
+      <string>Hollister</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>Adidas</string>
+      <set>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>2</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin</username>
+          <title>January 2021 Discount Code</title>
+          <dateTimeSent>08/01/2021, 00:48</dateTimeSent>
+          <messageBody>Happy New Year! To celebrate, we have a January discount code applicable to ALL items on
+Adidas.ie!
+
+Use code &apos;HAPPYNEWYEAR&apos; at the checkout for 10% off all items!
+
+Code expires 31/01/2021.</messageBody>
+          <priority>2</priority>
+        </application.model.Email>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>2</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin2</username>
+          <title>New Products on Adidas.ie!</title>
+          <dateTimeSent>08/01/2021, 00:39</dateTimeSent>
+          <messageBody>Visit Adidas.ie today to see all the new arrivals to the Adidas collection.
+
+Arrivals include Gazelle shoes, Superstar shoes and more...</messageBody>
+          <priority>2</priority>
+        </application.model.Email>
+      </set>
+    </entry>
+    <entry>
+      <string>Superdry</string>
+      <set>
+        <application.model.Email>
+          <PriorityQueue serialization="custom">
+            <unserializable-parents/>
+            <java.util.PriorityQueue>
+              <default>
+                <size>1</size>
+              </default>
+              <int>2</int>
+              <int>3</int>
+            </java.util.PriorityQueue>
+          </PriorityQueue>
+          <username>admin2</username>
+          <title>In-store clearance!</title>
+          <dateTimeSent>08/01/2021, 00:37</dateTimeSent>
+          <messageBody>Superdry stores across the country are having a huge clearance sale.
+
+Up to 50% off on selected items.
+
+Visit your local store today to avail of this offer.</messageBody>
+          <priority>3</priority>
+        </application.model.Email>
+      </set>
+    </entry>
+  </map>
+</object-stream>

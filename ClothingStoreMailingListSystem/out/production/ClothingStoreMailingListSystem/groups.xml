@@ -1,0 +1,85 @@
+<object-stream>
+  <map>
+    <entry>
+      <string>Nike</string>
+      <application.model.Group>
+        <name>Nike</name>
+      </application.model.Group>
+    </entry>
+    <entry>
+      <string>Calvin Klein</string>
+      <application.model.Group>
+        <name>Calvin Klein</name>
+        <members>
+          <application.model.Member>
+            <email>abc@.</email>
+            <username>def</username>
+            <password>12345678</password>
+            <isAdmin>false</isAdmin>
+            <groups>
+              <string>Calvin Klein</string>
+            </groups>
+            <signUpDate resolves-to="java.time.Ser">
+              <byte>3</byte>
+              <int>2021</int>
+              <byte>1</byte>
+              <byte>7</byte>
+            </signUpDate>
+          </application.model.Member>
+        </members>
+      </application.model.Group>
+    </entry>
+    <entry>
+      <string>Hollister</string>
+      <application.model.Group>
+        <name>Hollister</name>
+        <members>
+          <application.model.Member>
+            <email>admin@system.ie</email>
+            <username>admin</username>
+            <password>12345678</password>
+            <isAdmin>true</isAdmin>
+            <groups>
+              <string>Hollister</string>
+            </groups>
+            <signUpDate resolves-to="java.time.Ser">
+              <byte>3</byte>
+              <int>2021</int>
+              <byte>1</byte>
+              <byte>7</byte>
+            </signUpDate>
+          </application.model.Member>
+        </members>
+      </application.model.Group>
+    </entry>
+    <entry>
+      <string>Adidas</string>
+      <application.model.Group>
+        <name>Adidas</name>
+      </application.model.Group>
+    </entry>
+    <entry>
+      <string>Superdry</string>
+      <application.model.Group>
+        <name>Superdry</name>
+        <members>
+          <application.model.Member>
+            <email>beckyetroy@gmail.com</email>
+            <username>beckyet19</username>
+            <password>12345678</password>
+            <isAdmin>false</isAdmin>
+            <groups>
+              <string>Superdry</string>
+            </groups>
+            <signUpDate resolves-to="java.time.Ser">
+              <byte>3</byte>
+              <int>2021</int>
+              <byte>1</byte>
+              <byte>7</byte>
+            </signUpDate>
+          </application.model.Member>
+        </members>
+      </application.model.Group>
+    </entry>
+  </map>
+</object-stream>

@@ -1,0 +1,43 @@
+<object-stream>
+  <map>
+    <entry>
+      <string>beckyet19</string>
+      <application.model.Member>
+        <email>beckyetroy@gmail.com</email>
+        <username>beckyet19</username>
+        <password>12345678</password>
+        <isAdmin>false</isAdmin>
+        <groups>
+          <string>Nike</string>
+          <string>Hollister</string>
+          <string>Superdry</string>
+        </groups>
+        <signUpDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2021</int>
+          <byte>1</byte>
+          <byte>7</byte>
+        </signUpDate>
+      </application.model.Member>
+    </entry>
+    <entry>
+      <string>admin</string>
+      <application.model.Member>
+        <email>admin@system.ie</email>
+        <username>admin</username>
+        <password>12345678</password>
+        <isAdmin>true</isAdmin>
+        <groups>
+          <string>Hollister</string>
+        </groups>
+        <signUpDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2021</int>
+          <byte>1</byte>
+          <byte>7</byte>
+        </signUpDate>
+        <lastPostedDate>07/01/2021, 15:23</lastPostedDate>
+      </application.model.Member>
+    </entry>
+  </map>
+</object-stream>

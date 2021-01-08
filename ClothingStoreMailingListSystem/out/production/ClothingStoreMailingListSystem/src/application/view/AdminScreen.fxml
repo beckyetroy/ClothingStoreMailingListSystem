@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.AdminScreenController">
+   <children>
+      <SplitPane dividerPositions="0.19678714859437751" orientation="VERTICAL" prefHeight="500.0" prefWidth="700.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="144.0" prefWidth="698.0">
+               <children>
+                  <Label layoutX="161.0" layoutY="57.0" text="Welcome. Please select an option below to get started.">
+                     <font>
+                        <Font name="Segoe UI" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="214.0" layoutY="15.0" text="Best Fashion Deals" underline="true">
+                     <font>
+                        <Font name="Perpetua Titling MT Bold" size="26.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop color="#c1c1c1" />
+                              <Stop color="BLACK" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="9.14" radius="2.585" spread="0.41" width="3.2" />
+                     </effect>
+                  </Label>
+                  <Button layoutX="574.0" layoutY="19.0" mnemonicParsing="false" onAction="#handleSave" prefHeight="25.0" prefWidth="121.0" text="Save All Changes">
+                     <font>
+                        <Font name="Segoe UI" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="574.0" layoutY="54.0" mnemonicParsing="false" onAction="#handleLoad" prefHeight="25.0" prefWidth="121.0" text="Load All Changes">
+                     <font>
+                        <Font name="Segoe UI" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="14.0" layoutY="35.0" mnemonicParsing="false" onAction="#handleLogOutBtn" prefHeight="25.0" prefWidth="121.0" text="Log Out">
+                     <font>
+                        <Font name="Segoe UI" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="337.0" prefWidth="698.0" stylesheets="@PurpleAndGrey.css">
+               <children>
+                  <TabPane prefHeight="397.0" prefWidth="710.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Mailing Lists">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Label layoutX="21.0" layoutY="18.0" text="Create a New Mailing List" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="325.0" layoutY="18.0" text="List Name:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="newListName" layoutX="409.0" layoutY="14.0" prefHeight="25.0" prefWidth="211.0" />
+                                    <Button layoutX="620.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleCreateBtn" prefWidth="61.0" text="Create">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Accordion layoutX="36.0" layoutY="71.0" />
+                                    <Label layoutX="21.0" layoutY="81.0" text="Update Mailing List" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Line endX="606.0000610351562" endY="1.1444091796875E-5" layoutX="102.0" layoutY="72.0" startX="-100.0" stroke="#b2b2b2" />
+                                    <Label layoutX="21.0" layoutY="114.0" text="Search the List you want to edit by Name:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="updateSearch" layoutX="356.0" layoutY="104.0" prefHeight="25.0" prefWidth="177.0" />
+                                    <Button layoutX="533.0" layoutY="104.0" mnemonicParsing="false" onAction="#handleUpdateSearchBtn" prefHeight="25.0" prefWidth="95.0" text="Search">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="addFeedback" layoutX="409.0" layoutY="39.0" text="You can create one list at a time">
+                                       <font>
+                                          <Font name="Segoe UI Italic" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="updateField" layoutX="357.0" layoutY="145.0" prefHeight="25.0" prefWidth="177.0" />
+                                    <Button fx:id="updateListBtn" layoutX="533.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleUpdateListBtn" prefHeight="25.0" prefWidth="95.0" text="Save Changes">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label layoutX="21.0" layoutY="155.0" text="List Name:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="removeFeedback" layoutX="358.0" layoutY="314.0" text="You can delete one list at a time">
+                                       <font>
+                                          <Font name="Segoe UI Italic" size="11.0" />
+                                       </font>
+                                    </Label>
+                                    <Line endX="606.0000610351562" endY="1.1444091796875E-5" layoutX="102.0" layoutY="204.0" startX="-100.0" stroke="#b2b2b2" />
+                                    <Label layoutX="19.0" layoutY="216.0" text="Delete Mailing List" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="removeSearch" layoutX="357.0" layoutY="239.0" prefHeight="25.0" prefWidth="177.0" />
+                                    <Button layoutX="534.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleRemoveSearchBtn" prefHeight="25.0" prefWidth="95.0" text="Search">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <TextField fx:id="removeField" layoutX="358.0" layoutY="280.0" prefHeight="25.0" prefWidth="177.0" />
+                                    <Button fx:id="removeListBtn" layoutX="534.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleRemoveListBtn" prefHeight="25.0" prefWidth="95.0" text="Delete List">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label layoutX="21.0" layoutY="250.0" text="Search the List you want to remove by Name:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="151.0" layoutY="340.0" text="Warning: If you choose to delete a List, all associated emails will also be deleted.">
+                                       <font>
+                                          <Font name="Segoe UI Italic" size="11.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="21.0" layoutY="289.0" text="List Name:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="editFeedback" layoutX="358.0" layoutY="177.0" text="Edit Name here">
+                                       <font>
+                                          <Font name="Segoe UI Italic" size="11.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab text="Emails">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="363.0" prefWidth="710.0">
+                                 <children>
+                                    <Label layoutX="14.0" layoutY="14.0" text="View Emails by Mailing List" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="398.0" layoutY="14.0" text="Select Mailing List:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="readMessageBtn" layoutX="241.0" layoutY="10.0" mnemonicParsing="false" onAction="#changeSceneToReadMessage" prefHeight="25.0" prefWidth="121.0" text="View Message">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <TableView fx:id="table" layoutX="5.0" layoutY="44.0" prefHeight="87.0" prefWidth="700.0">
+                                       <columns>
+                                          <TableColumn fx:id="dateColumn" prefWidth="115.99999487400055" text="Date &amp; Time" />
+                                          <TableColumn fx:id="senderColumn" prefWidth="160.66661071777344" text="Sent by" />
+                                          <TableColumn fx:id="titleColumn" prefWidth="337.33343505859375" text="Title" />
+                                          <TableColumn fx:id="priorityColumn" minWidth="0.0" prefWidth="88.66668701171875" text="Priority" />
+                                       </columns>
+                                    </TableView>
+                                    <ComboBox fx:id="fullListCombo" layoutX="536.0" layoutY="11.0" onAction="#changedGroupCombo" prefWidth="150.0" />
+                                    <Line endX="606.0000610351562" endY="1.1444091796875E-5" layoutX="102.0" layoutY="146.0" startX="-100.0" stroke="#b2b2b2" />
+                                    <Label layoutX="14.0" layoutY="158.0" text="Send a New Email" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="title" layoutX="30.0" layoutY="193.0" prefHeight="23.0" prefWidth="521.0" promptText="Message Title" />
+                                    <TextArea fx:id="body" layoutX="30.0" layoutY="214.0" prefHeight="140.0" prefWidth="521.0" promptText="Message Content" />
+                                    <RadioButton fx:id="highPriority" layoutX="599.0" layoutY="240.0" mnemonicParsing="false" text="High" />
+                                    <Label layoutX="418.0" layoutY="158.0" text="To Mailing List:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="mailingListOption" layoutX="534.0" layoutY="155.0" prefWidth="150.0" />
+                                    <Label layoutX="599.0" layoutY="205.0" text="Priority:" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <RadioButton fx:id="mediumPriority" layoutX="599.0" layoutY="266.0" mnemonicParsing="false" text="Medium" />
+                                    <RadioButton fx:id="lowPriority" layoutX="600.0" layoutY="291.0" mnemonicParsing="false" text="Low" />
+                                    <Button layoutX="29.0" layoutY="328.0" mnemonicParsing="false" onAction="#handleSendBtn" prefHeight="25.0" prefWidth="522.0" text="Send Email">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="sendFeedback" layoutX="148.0" layoutY="159.0" text="Please fill in all fields">
+                                       <font>
+                                          <Font name="Segoe UI Italic" size="12.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                        </content>
+                      </Tab>
+                        <Tab text="Users">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="363.0" prefWidth="710.0">
+                                 <children>
+                                    <Label fx:id="removeUserFeedback" layoutX="111.0" layoutY="251.0" text="You can delete one user at a time">
+                                       <font>
+                                          <Font name="Segoe UI Italic" size="11.0" />
+                                       </font>
+                                    </Label>
+                                    <Line endX="606.0000610351562" endY="1.1444091796875E-5" layoutX="102.0" layoutY="242.0" startX="-100.0" stroke="#b2b2b2" />
+                                    <Label layoutX="14.0" layoutY="249.0" text="Delete User" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="removeUserSearch" layoutX="385.0" layoutY="275.0" prefHeight="25.0" prefWidth="210.0" />
+                                    <Button layoutX="595.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleRemoveUserSearchBtn" prefHeight="25.0" prefWidth="95.0" text="Search">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Button fx:id="removeUserBtn" layoutX="593.0" layoutY="310.0" mnemonicParsing="false" onAction="#handleRemoveUserBtn" prefHeight="43.0" prefWidth="95.0" text="Delete User">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label layoutX="32.0" layoutY="279.0" text="Search the User you want to remove by Username:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="29.0" layoutY="318.0" prefWidth="78.0" text="User Details:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea fx:id="userDetails" layoutX="128.0" layoutY="310.0" prefHeight="43.0" prefWidth="467.0" />
+                                    <Label layoutX="18.0" layoutY="14.0" text="View Users by Mailing List" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="393.0" layoutY="14.0" text="Select Mailing List:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="mailingListCombo" layoutX="543.0" layoutY="11.0" onAction="#changedMailingListCombo" prefWidth="150.0" />
+                                    <TextArea fx:id="usersByList" layoutX="18.0" layoutY="43.0" prefHeight="63.0" prefWidth="673.0">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font></TextArea>
+                                    <Line endX="606.0000610351562" endY="1.1444091796875E-5" layoutX="102.0" layoutY="118.0" startX="-100.0" stroke="#b2b2b2" />
+                                    <Label layoutX="18.0" layoutY="128.0" text="Unsubscribe a User from a Mailing List" underline="true">
+                                       <font>
+                                          <Font name="Segoe UI Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="391.0" layoutY="128.0" text="Select Mailing List:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="mailingListCombo2" layoutX="541.0" layoutY="125.0" onAction="#changedGroupCombo" prefWidth="150.0" />
+                                    <TextField fx:id="removeUserFromList" layoutX="385.0" layoutY="160.0" prefHeight="25.0" prefWidth="210.0" />
+                                    <Button layoutX="595.0" layoutY="160.0" mnemonicParsing="false" onAction="#handleSearchUserFromListBtn" prefHeight="25.0" prefWidth="95.0" text="Search">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label layoutX="31.0" layoutY="162.0" text="Search the User by Username:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="removeFromListFeedback" layoutX="397.0" layoutY="220.0" text="You can unsubscribe one user at a time">
+                                       <font>
+                                          <Font name="Segoe UI Italic" size="11.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="removeFromListField" layoutX="385.0" layoutY="195.0" prefHeight="25.0" prefWidth="212.0" />
+                                    <Button fx:id="removeUserFromListBtn" layoutX="595.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleRemoveUserFromListBtn" prefHeight="25.0" prefWidth="95.0" text="Remove">
+                                       <font>
+                                          <Font name="Segoe UI" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label layoutX="30.0" layoutY="197.0" text="Confirm Username:">
+                                       <font>
+                                          <Font name="Segoe UI" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

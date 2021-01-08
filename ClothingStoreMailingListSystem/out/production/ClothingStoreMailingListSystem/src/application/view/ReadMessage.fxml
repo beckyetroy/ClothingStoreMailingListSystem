@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ReadMessageController">
+   <children>
+      <SplitPane dividerPositions="0.18072289156626506" orientation="VERTICAL" prefHeight="500.0" prefWidth="700.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label layoutX="214.0" layoutY="14.0" text="Best Fashion Deals" underline="true">
+                     <font>
+                        <Font name="Perpetua Titling MT Bold" size="26.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop color="#c1c1c1" />
+                              <Stop color="BLACK" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="9.14" radius="2.585" spread="0.41" width="3.2" />
+                     </effect>
+                  </Label>
+                  <ImageView fitHeight="53.0" fitWidth="95.0" layoutX="20.0" layoutY="13.0">
+                     <image>
+                        <Image url="@../img/Nike-Logo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="62.0" fitWidth="83.0" layoutX="594.0" layoutY="8.0">
+                     <image>
+                        <Image url="@../img/adidas-logo-e1468257076328.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" stylesheets="@PurpleAndGrey.css">
+               <children>
+                  <Button layoutX="260.0" layoutY="344.0" mnemonicParsing="false" onAction="#backToMainUser" prefHeight="27.0" prefWidth="178.0" text="Back to Messages">
+                     <font>
+                        <Font name="Segoe UI" size="13.0" />
+                     </font>
+                  </Button>
+                  <TextArea fx:id="message" layoutX="27.0" layoutY="87.0" prefHeight="229.0" prefWidth="639.0">
+                     <font>
+                        <Font name="Segoe UI" size="14.0" />
+                     </font></TextArea>
+                  <Label fx:id="senderLabel" layoutX="27.0" layoutY="62.0" prefHeight="19.0" prefWidth="147.0" text="Sent by:">
+                     <font>
+                        <Font name="Segoe UI" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="dateLabel" layoutX="534.0" layoutY="62.0" prefHeight="19.0" prefWidth="137.0" text="05/01/2021 01:19 ">
+                     <font>
+                        <Font name="Segoe UI" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="titleLabel" alignment="CENTER" layoutX="95.0" layoutY="14.0" prefHeight="27.0" prefWidth="503.0" text="Title" textAlignment="CENTER">
+                     <font>
+                        <Font name="Segoe UI Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="priorityLabel" layoutX="275.0" layoutY="62.0" prefHeight="19.0" prefWidth="147.0" text="Priority:">
+                     <font>
+                        <Font name="Segoe UI" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

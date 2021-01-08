@@ -1,0 +1,114 @@
+<object-stream>
+  <set>
+    <application.model.Email>
+      <PriorityQueue serialization="custom">
+        <unserializable-parents/>
+        <java.util.PriorityQueue>
+          <default>
+            <size>1</size>
+          </default>
+          <int>2</int>
+          <int>1</int>
+        </java.util.PriorityQueue>
+      </PriorityQueue>
+      <username>admin</username>
+      <title>Stock Clearance</title>
+      <dateTimeSent>07/01/2021, 03:19</dateTimeSent>
+      <messageBody>Adidas is having a mass clearance!
+
+Up to 85% off on selected items.
+
+Use code &quot;CLEAR2021&quot; at checkout for discount.</messageBody>
+      <priority>1</priority>
+    </application.model.Email>
+    <application.model.Email>
+      <PriorityQueue serialization="custom">
+        <unserializable-parents/>
+        <java.util.PriorityQueue>
+          <default>
+            <size>1</size>
+          </default>
+          <int>2</int>
+          <int>1</int>
+        </java.util.PriorityQueue>
+      </PriorityQueue>
+      <username>admin</username>
+      <title>CLEARANCE ENDS SOON</title>
+      <dateTimeSent>07/01/2021, 03:53</dateTimeSent>
+      <messageBody>Nike big clearance sale ends in less than 24 hours!
+
+Use code &apos;CLEARANCE2021&apos; for up to 75% off while you still can!</messageBody>
+      <priority>1</priority>
+    </application.model.Email>
+    <application.model.Email>
+      <PriorityQueue serialization="custom">
+        <unserializable-parents/>
+        <java.util.PriorityQueue>
+          <default>
+            <size>1</size>
+          </default>
+          <int>2</int>
+          <int>3</int>
+        </java.util.PriorityQueue>
+      </PriorityQueue>
+      <username>admin</username>
+      <title>Nike Air Force 1s and more...</title>
+      <dateTimeSent>07/01/2021, 03:57</dateTimeSent>
+      <messageBody>Check out nike.com/ie/ to shop Nike&apos;s full range including Air Force 1s, fleeces, and more!</messageBody>
+      <priority>3</priority>
+    </application.model.Email>
+    <application.model.Email>
+      <PriorityQueue serialization="custom">
+        <unserializable-parents/>
+        <java.util.PriorityQueue>
+          <default>
+            <size>1</size>
+          </default>
+          <int>2</int>
+          <int>2</int>
+        </java.util.PriorityQueue>
+      </PriorityQueue>
+      <username>admin</username>
+      <title>January Sales</title>
+      <dateTimeSent>07/01/2021, 03:38</dateTimeSent>
+      <messageBody>Nike are offering up to 75% off.</messageBody>
+      <priority>2</priority>
+    </application.model.Email>
+    <application.model.Email>
+      <PriorityQueue serialization="custom">
+        <unserializable-parents/>
+        <java.util.PriorityQueue>
+          <default>
+            <size>1</size>
+          </default>
+          <int>2</int>
+          <int>3</int>
+        </java.util.PriorityQueue>
+      </PriorityQueue>
+      <username>admin</username>
+      <title>Special offers</title>
+      <dateTimeSent>07/01/2021, 15:23</dateTimeSent>
+      <messageBody>In store now</messageBody>
+      <priority>3</priority>
+    </application.model.Email>
+    <application.model.Email>
+      <PriorityQueue serialization="custom">
+        <unserializable-parents/>
+        <java.util.PriorityQueue>
+          <default>
+            <size>1</size>
+          </default>
+          <int>2</int>
+          <int>2</int>
+        </java.util.PriorityQueue>
+      </PriorityQueue>
+      <username>admin</username>
+      <title>Start of Year Sales</title>
+      <dateTimeSent>07/01/2021, 02:57</dateTimeSent>
+      <messageBody>Up to 50% off on selected items when you order from www.calvinklein.ie now.
+
+Hurry, offer ends 31st January 2021!</messageBody>
+      <priority>2</priority>
+    </application.model.Email>
+  </set>
+</object-stream>
